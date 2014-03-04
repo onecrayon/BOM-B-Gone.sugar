@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<action-recipes>
+	
+	<action id="com.onecrayon.sugar.bom-b-gone.strip-bom" category="actions.text.generic/actions.text.convert/actions.bom-b-gone">
+		<class>OCShellAction</class>
+		<setup>
+			<script>bom-b-gone.sh</script>
+			<input>nothing</input>
+			<output>nothing</output>
+		</setup>
+	</action>
+	
+</action-recipes>
